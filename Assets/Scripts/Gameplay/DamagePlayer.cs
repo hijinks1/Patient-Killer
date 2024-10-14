@@ -27,7 +27,7 @@ public class DamagePlayer : MonoBehaviour
         if (currentHP <= 0)
         {
             //unit has died
-            //SceneManager.LoadScene("Loss");
+            SceneManager.LoadScene("Loss");
             return true;
         }
         else
